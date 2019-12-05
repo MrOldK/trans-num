@@ -35,9 +35,8 @@
     static version = '1.0'
     static repository = 'https://github.com/MrOldK/trans-num'
 
-    flag = 0
-
     constructor (opts, cb) {
+      this.flag = 0
       // HTML id
       this.el = document.getElementById(opts.el)
  
