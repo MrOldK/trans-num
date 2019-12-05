@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app"></div>
+    <script src="main.js"></script>
+    <script>
+        new linearNum({
+          el: 'app',
+           from: 333,
+          increase: 333,
+          speed: 30
+        }, () => {
+          console.log(this)
+        })
+    </script>
+</body>
+</html>
