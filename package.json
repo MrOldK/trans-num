@@ -1,29 +1,36 @@
 {
   "name": "trans-num",
   "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
+  "description": "数字递增或递减",
+  "main": "src/main.js",
   "scripts": {
-    "test": "parcel index.html --open -p 0912",
-    "build": "parcel main.js"
+    "test": "parcel test/index.html --no-cache --open --port 1234",
+    "build": "parcel src/main.js"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/MrOldK/trans-num.git"
   },
+  "keywords": [
+    "Number",
+    "Increasing",
+    "Decrement",
+    "change",
+    "browser",
+    "amd",
+    "commonjs"
+  ],
+  "license": "MIT",
   "author": "MOK",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/MrOldK/trans-num/issues"
   },
   "homepage": "https://github.com/MrOldK/trans-num#readme",
-  "dependencies": {
-    "@babel/polyfill": "^7.7.0"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@babel/core": "^7.7.4",
     "@babel/plugin-proposal-class-properties": "^7.7.4",
-    "babel-core": "^6.26.3",
-    "babel-plugin-transform-class-properties": "^6.24.1",
+    "@babel/preset-env": "^7.7.6",
     "parcel-bundler": "^1.12.4"
   }
 }
